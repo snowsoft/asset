@@ -3,12 +3,12 @@ Asset Component for Orchestra Platform
 
 Asset Component is a port of Laravel 3 Asset for Orchestra Platform. The component main functionality is to allow asset declaration to be handle dynamically and asset dependencies can be resolve directly from the container. It however is not intended to becoma an asset pipeline package for Laravel, for such purpose we would recommend to use Grunt or Gulp.
 
-[![tests](https://github.com/orchestral/asset/workflows/tests/badge.svg?branch=6.x)](https://github.com/orchestral/asset/actions?query=workflow%3Atests+branch%3A6.x)
-[![Latest Stable Version](https://poser.pugx.org/orchestra/asset/version)](https://packagist.org/packages/orchestra/asset)
-[![Total Downloads](https://poser.pugx.org/orchestra/asset/downloads)](https://packagist.org/packages/orchestra/asset)
-[![Latest Unstable Version](https://poser.pugx.org/orchestra/asset/v/unstable)](//packagist.org/packages/orchestra/asset)
-[![License](https://poser.pugx.org/orchestra/asset/license)](https://packagist.org/packages/orchestra/asset)
-[![Coverage Status](https://coveralls.io/repos/github/orchestral/asset/badge.svg?branch=6.x)](https://coveralls.io/github/orchestral/asset?branch=6.x)
+[![tests](https://github.com/snowsoft/asset/workflows/tests/badge.svg?branch=6.x)](https://github.com/orchestral/asset/actions?query=workflow%3Atests+branch%3A6.x)
+[![Latest Stable Version](https://poser.pugx.org/orchestra/asset/version)](https://packagist.org/packages/snowsoft/asset)
+[![Total Downloads](https://poser.pugx.org/orchestra/asset/downloads)](https://packagist.org/packages/snowsoft/asset)
+[![Latest Unstable Version](https://poser.pugx.org/orchestra/asset/v/unstable)](//packagist.org/packages/snowsoft/asset)
+[![License](https://poser.pugx.org/orchestra/asset/license)](https://packagist.org/packages/snowsoft/asset)
+[![Coverage Status](https://coveralls.io/repos/github/snowsoft/asset/badge.svg?branch=6.x)](https://coveralls.io/github/snowsoft/asset?branch=6.x)
 
 ## Table of Content
 
@@ -39,7 +39,7 @@ Laravel    | Asset
 
 To install through composer, run the following command from terminal:
 
-    composer require "orchestra/asset"
+    composer require "snowsoft/asset"
 
 ## Configuration
 
