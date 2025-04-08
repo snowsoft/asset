@@ -1,5 +1,5 @@
 {
-    "name": "orchestra/asset",
+    "name": "snowsoft/asset",
     "description": "Asset Component for Orchestra Platform",
     "homepage": "http://orchestraplatform.com/docs/latest/components/asset/",
     "keywords": ["orchestra-platform", "orchestral", "laravel", "asset"],
@@ -17,15 +17,15 @@
         }
     },
     "require": {
-        "php": "^7.3 || ^8.0",
-        "laravie/html": "^7.1",
+        "php": "^7.3 || ^8.*",
+        "snowsoft/html": "*",
         "orchestra/contracts": "^6.0",
         "orchestra/support-facades": "^6.0"
     },
     "require-dev": {
-        "illuminate/filesystem": "^8.0",
-        "nunomaduro/larastan": "^1.0.1",
-        "orchestra/testbench": "^6.22"
+        "illuminate/filesystem": "^8.0 || ^9.0 || ^10.0  || ^11.0 || ^12.0",
+        "nunomaduro/larastan": "*",
+        "orchestra/testbench": "*"
     },
     "suggest": {
         "illuminate/filesystem": "Allow using orchestra/asset component outside of Laravel app (^8.0).",
